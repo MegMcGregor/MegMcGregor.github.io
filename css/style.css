@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .imgae-language-icon {
     width: 4em;
@@ -10,7 +12,7 @@ body {
     margin: 0;
     font-size: 100%;
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -37,7 +39,8 @@ input[type="search"] {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -47,12 +50,24 @@ h4,
 h5,
 h6 {
     margin: 0;
-    letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+
+#experience h5 {
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
 }
 
 p {
+    font-size: 0.9em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.tech-stack {
     font-size: 0.9em;
     color: #8c9398;
     line-height: 2em;
@@ -117,14 +132,15 @@ nav ul li {
 /* Styling the links */
 
 nav a {
-    color: #808EFF;
+    color: #392B58;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 1px;
     padding-left: 0;
     padding-right: 0;
     padding: 10px 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 }
 
@@ -140,7 +156,7 @@ nav a:hover {
 }
 
 .menu li.active a {
-    color: #2B3D41;
+    color: #ffff;
 }
 
 /* Hide Dropdowns by Default
@@ -151,7 +167,7 @@ nav ul ul {
     position: absolute;
     /* has to be the same number as the "line-height" of "nav a" */
     top: 30px;
-    background: #808EFF;
+    background: #392B58;
     padding: 10px;
 }
 
@@ -323,6 +339,7 @@ li > a:only-child:after {
 
 .main-content {
     background: url(../images/banner.jpg) no-repeat center;
+    opacity: 0.9;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -344,9 +361,17 @@ li > a:only-child:after {
 
 .banner-info h1 {
     font-size: 6em;
-    letter-spacing: 1px;
+    letter-spacing: .10em;
     color: #ffff;
-    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+.banner-info h3 {
+    font-size: 2.5em;
+    letter-spacing: .4em;
+    color: #392B58;
+    text-transform: lowercase;
+    font-family: 'Karla', sans-serif;
 }
 
 .banner-info h1 span {
@@ -356,7 +381,7 @@ li > a:only-child:after {
 .banner-info h2 {
     color: rgba(255, 255, 255, 0.47);
     font-size: 0.9em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 300;
     letter-spacing: 9px;
 }
@@ -404,7 +429,7 @@ li > a:only-child:after {
     display: block;
     width: 0.315em;
     height: 0.315em;
-    border-right: 1px solid #808EFF;
+    border-right: 1px solid #392B58;
     border-bottom: 1px solid rgba(255, 255, 255, .8);
     margin: 0 0 0.125em 0.315em;
     transform: rotate(45deg);
@@ -438,7 +463,7 @@ li > a:only-child:after {
     height: 0.1875em;
     width: 0.1875em;
     margin: 0.1875em auto 0;
-    background: #808EFF;
+    background: #392B58;
     animation: mouse-wheel 1.2s ease infinite;
     border-radius: 50%;
 }
@@ -541,11 +566,11 @@ h3.agile_tittle.two {
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #808EFF;
+    color: #392B58;
     font-weight: 700;
     letter-spacing: 2px;
     text-align: left;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 h3.title span {
@@ -564,7 +589,7 @@ h3.title span.ab {
 h2.main_head,
 h3.main_head {
     font-weight: 700;
-    color: black;
+    color: #808EFF;
     border-radius: 0.35em;
     box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
     font-size: 2.75em;
@@ -576,7 +601,7 @@ h3.main_head {
 
 p.main_p2 {
     font-size: 1.1em;
-    color: #808EFF;
+    color: #392B58;
     line-height: 1.8em;
     width: 75%;
 }
@@ -585,7 +610,7 @@ p.main_p {
     font-size: 1.5em;
     line-height: 1.8em;
     letter-spacing: 0.075em;
-    color: black;
+    color:#2D3139;
 }
 
 .button-style {
@@ -708,7 +733,7 @@ p.serp {
 }
 
 h6.intr.ser {
-    color: #484d55;
+    color: #2D3139;
 }
 
 h3.main_head1 {
@@ -716,7 +741,7 @@ h3.main_head1 {
     font-size: 2em;
     letter-spacing: 0.075em;
     line-height: 1.5em;
-    color: #484d55;
+    color: #2D3139;
 }
 
 p.main_p3 {
@@ -810,7 +835,7 @@ a.work,
 a.hire:hover {
     padding: 12px 35px;
     color: #ffff;
-    background: #2D3139;
+    background: #392B58;
     border: 2px solid #fff;
     font-weight: 500;
     font-size: 16px;
@@ -1124,7 +1149,7 @@ footer {
 
 .copyright p,
 .copyright p a {
-    color: #999;
+    color: #ffff;
     font-size: 15px;
     margin: 0;
     letter-spacing: 1px;
