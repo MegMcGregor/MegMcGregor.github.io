@@ -487,8 +487,8 @@ mark,
 }
 
 .profile-image {
-  max-width: 40%;
-  border-radius: 50%;
+  max-width: 30%;
+  filter: grayscale(100%);
   height: auto;
   display: block;
   margin-left: auto;

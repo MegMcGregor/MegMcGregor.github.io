@@ -67,6 +67,13 @@ p {
     letter-spacing: 1px;
 }
 
+.tech-stack {
+    font-size: 0.9em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -354,9 +361,17 @@ li > a:only-child:after {
 
 .banner-info h1 {
     font-size: 6em;
-    letter-spacing: 1px;
+    letter-spacing: .10em;
     color: #ffff;
     text-transform: lowercase;
+}
+
+.banner-info h3 {
+    font-size: 2.5em;
+    letter-spacing: .4em;
+    color: #392B58;
+    text-transform: lowercase;
+    font-family: 'Karla', sans-serif;
 }
 
 .banner-info h1 span {
